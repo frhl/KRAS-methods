@@ -9,22 +9,22 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Depends:
-    R (>= 3.6),
+    R (>= 4.0.2),
     ggplot2,
     data.table,
     reshape2,
-    readxl,
     dplyr,
     igraph,
     qgraph,
-    RColorBrewer,
+    gplots,
+    RColorBrewer
 Suggests:
     devtools,
     genoppi,
     writexl,
+    readxl,
     testthat (>= 2.1.0)
 Imports:
-    gplots,
     cowplot
 RoxygenNote: 7.1.1
 Collate:
@@ -41,6 +41,7 @@ Collate:
     'get_prey_complexes.R'
     'grep_ms_data.R'
     'impute_by_col.R'
+    'list_to_matrix.R'
     'read_excel_sheets.R'
     'read_workbook.R'    
     'rename_saint_sheets.R'
