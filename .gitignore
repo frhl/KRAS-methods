@@ -37,3 +37,7 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# data not available prior to publication
+inst/extdata/KRAS/
+
