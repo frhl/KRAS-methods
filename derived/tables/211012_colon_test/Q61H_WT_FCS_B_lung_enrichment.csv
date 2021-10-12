@@ -1,0 +1,3 @@
+"","list_name","successInSample_count","sample_count","notSample_count","success_count","population_count","pvalue","analysis","FDR"
+"1","lung",0,0,356,107,356,1,"conditional",1
+"2","lung",0,30,19346,107,19376,1,"global",1

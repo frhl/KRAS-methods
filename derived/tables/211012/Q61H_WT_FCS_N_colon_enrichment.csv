@@ -1,0 +1,3 @@
+"","list_name","successInSample_count","sample_count","notSample_count","success_count","population_count","pvalue","analysis","FDR"
+"2","colon",1,30,19442,512,19472,0.550664326827902,"global",0.550664326827902
+"1","colon",1,4,2133,512,2137,0.665950600834348,"conditional",0.665950600834348

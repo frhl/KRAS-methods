@@ -1,0 +1,3 @@
+"","list_name","successInSample_count","sample_count","notSample_count","success_count","population_count","pvalue","analysis","FDR"
+"2","bilary",1,30,19436,189,19466,0.253917933849812,"global",0.253917933849812
+"1","bilary",1,7,2052,189,2059,0.490847187120582,"conditional",0.490847187120582

@@ -1,0 +1,3 @@
+"","list_name","successInSample_count","sample_count","notSample_count","success_count","population_count","pvalue","analysis","FDR"
+"2","pancreas",1,30,19441,888,19471,0.753757516925567,"global",0.753757516925567
+"1","pancreas",1,5,2152,888,2157,0.929750082780434,"conditional",0.929750082780434
