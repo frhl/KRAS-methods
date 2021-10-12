@@ -1,0 +1,57 @@
+Package: KRAS
+Type: Package
+Title: KRAS methods
+Version: 0.1.2
+Author: FL
+Maintainer: FL <flassen@well.ox.ac.uk>
+Description: A package to aid the analysis of KRAS. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.6),
+    ggplot2,
+    data.table,
+    reshape2,
+    readxl,
+    dplyr,
+    igraph,
+    qgraph,
+    RColorBrewer,
+Suggests:
+    devtools,
+    genoppi,
+    writexl,
+    testthat (>= 2.1.0)
+Imports:
+    gplots,
+    cowplot
+RoxygenNote: 7.1.1
+Collate:
+    'annotate_prey_complexes.R' 
+    'assign_color_scale.R'
+    'calc_logfc.R'
+    'calc_nested_enrichment.R'
+    'collapse_workbook.R'
+    'cluster_long.R'
+    'complete_missing.R'
+    'filter_workbook.R'
+    'find_corum_simple.R'
+    'ggbarplot.R'
+    'get_prey_complexes.R'
+    'grep_ms_data.R'
+    'impute_by_col.R'
+    'read_excel_sheets.R'
+    'read_workbook.R'    
+    'rename_saint_sheets.R'
+    'set_saintscore_workbook.R'
+    'setup_int_df.R'
+    'setup_graph_legend.R'
+    'make_complex_graph.R'
+    'make_group_graph.R'
+    'make_pathway_graph.R'
+    'misc.R'
+    'normalize_by_col.R'
+    'normalize_intensities.R'
+
+
